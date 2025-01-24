@@ -1,1 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
 @import "tailwindcss";
+
+@layer components {
+    .li-style{
+        @apply text-[#000000] text-sm font-medium  rounded-3xl px-3.5 py-2 hover:text-white hover:bg-primary hover:cursor-pointer
+    }
+}
+
+@theme {
+    --color-primary: #142F32;
+    --color-secondary: #dcffbf;
+    --color-success: #282930;
+    --color-danger: #777C90;
+
+    --font-manrope: Manrope, serif;
+
+    /* --breakpoint-sm: 640px;
+    --breakpoint-md: 768px;
+    --breakpoint-lg: 1024px;
+    --breakpoint-xl: 1366px;
+    --breakpoint-2xl: 1440px; */
+}

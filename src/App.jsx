@@ -1,10 +1,13 @@
-import React from 'react'
+import { Route, Routes } from "react-router"
+import Home from "./pages/home"
 
-const App = () => {
+function App() {
+ 
+
   return (
-    <div className='bg-red-300'>
-      Haider Mukhtar
-    </div>
+    <Routes>
+      <Route path='/' element={<Home/>} />
+    </Routes>
   )
 }
 
