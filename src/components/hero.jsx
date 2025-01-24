@@ -47,7 +47,7 @@ const Hero = () => {
         <p className='text-gray-500 text-sm '>from 80+ <span className='font-bold text-black opacity-70'>reviews</span></p>
       </div>
 
-      <div className='grid grid-cols-5 items-end'>
+      <div className='grid grid-cols-5 items-end -mt-16'>
         <div className='h-[90%]'>
           <img src={industry} alt="industry-img" className='object-cover h-full w-full rounded-3xl'/>
         </div>
