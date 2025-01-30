@@ -3,7 +3,7 @@
 
 @layer components {
     .li-style{
-        @apply text-[#000000] text-sm font-medium  rounded-3xl px-3.5 py-2 hover:text-white hover:bg-primary hover:cursor-pointer
+        @apply text-[#000000]/90 text-sm font-semibold  rounded-3xl px-3.5 py-2 hover:text-white hover:bg-primary hover:cursor-pointer
     }
 }
 
