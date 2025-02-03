@@ -16,13 +16,13 @@ import GetStartedBtn1 from './ui/get-started-btn1';
 
 const Hero = () => {
   return (
-    <div className='space-y-6 px-6 lg:px-12 xl:px-16 2xl:px-20 bg-[#F5F7F9] pt-14 pb-20'>
+    <div className='space-y-6 px-6 lg:px-12 xl:px-16 2xl:px-20 bg-[#F5F7F9] pt-14 pb-20' id='hero'>
       <h1 className='text-3xl font-bold text-center text-success leading-10 md:leading-[3rem] lg:leading-[4.5rem] md:text-4xl lg:text-6xl'>The Future of Manufacturing <br /> with <span className='text-primary'>Latest Technology</span></h1>
       <div className='flex justify-center lg:justify-between'>
         <div className='hidden lg:flex flex-col w-24'>
           <div className='flex justify-end '><HiOutlineSparkles className='size-9 bg-primary text-[#F5F7F9] p-1.5 rounded-full'/></div>
-          <div className='flex '><CgArrowTopRight className='size-11 text-primary border border-primary p-1.5 rounded-full'/></div>
-          <div className='flex justify-end '><FaRegFileAlt className='size-8 text-primary bg-secondary p-1.5 rounded-full'/></div>
+          <div className='flex '><CgArrowTopRight className='size-11  text-primary border border-primary p-1.5 rounded-full'/></div>
+          <div className='flex justify-end'><FaRegFileAlt className='size-5 text-primary bg-secondary'/></div>
         </div>
         <div className='flex flex-col gap-y-3 lg:gap-y-5'>
           <p className='text-success text-center pb-4'>Expert tech to elevate your manufacturing. Let's take your bussiness further.</p>
@@ -33,7 +33,7 @@ const Hero = () => {
         </div>
         <div className='hidden lg:flex flex-col w-24'>
           <div className='flex '><BsStars className='size-8 bg-primary text-[#F5F7F9] p-1.5 rounded-full invisible'/></div>
-          <div className='flex justify-end'><IoStatsChart className='size-7 text-success bg-secondary p-1 rounded-full opacity-75'/></div>
+          <div className='flex justify-end'><IoStatsChart className='size-7 text-success bg-secondary p-1 rounded-ful opacity-75'/></div>
           <div className='flex '><LuWaves className='size-12 text-primary border border-primary p-2.5 rounded-full'/></div>
         </div>
       </div>

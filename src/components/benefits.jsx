@@ -7,7 +7,7 @@ const Benefits = () => {
   return (
     <div className="grid grid-cols-1 gap-y-12 lg:grid lg:grid-cols-5 xl:grid xl:grid-cols-7 px-6 lg:px-12 xl:px-16 2xl:px-20 2xl:flex 2xl:justify-center 2xl:gap-x-20 bg-white pt-10 lg:pt-20 pb-20">
       <div className="justify-center items-center h-[400px] lg:h-auto flex bg-[#F8FAFB] col-span-2 xl:col-span-3 rounded-3xl 2xl:w-[40%]">
-        <div className="bg-white p-4 w-[90%] h-[350px] md:w-[70%] lg:w-[80%] xl:w-[70%] lg:h-[70%] xl:p-7 rounded-3xl relative">
+        <div className="bg-white p-4 w-[90%] h-[350px] md:w-[70%] lg:w-[80%] xl:w-[70%] lg:h-[65%] xl:h-[360px] xl:p-7 rounded-3xl relative">
           <div className="space-y-">
             <p className="text-xl text-gray-400 font-semibold">
               Total Projects
@@ -38,7 +38,7 @@ const Benefits = () => {
           </div>
           <hr className="text-gray-100 mt-4" />
           <div className="w-[80%] h-4 bg-[#EBF2F4] rounded-md mt-4"></div>
-          <div className="grid grid-cols-8 h-[30%] items-end lg:mt-8 xl:mt-4">
+          <div className="grid grid-cols-8 h-[30%] items-end mt-4 lg:mt-8 xl:mt-4">
             <div className="bg-[#0C363C] w-[60%] h-full rounded-md"></div>
             <div className="bg-[#1AA680] w-[60%] h-[84%] rounded-md"></div>
             <div className="bg-[#0C363C] w-[60%] h-[67%] rounded-md"></div>
@@ -48,7 +48,7 @@ const Benefits = () => {
             <div className="bg-red-300 w-[60%] h-[70%] rounded-md"></div>
             <div className="bg-red-300 w-[60%] h-[70%] rounded-md"></div>
           </div>
-          <div className="bg-white h-auto w-auto p-3 md:p-5 md:h-[48%] md:w-[50%] lg:p-5 lg:h-[45%] lg:w-[70%] xl:h-[57%] xl:w-[65%] rounded-3xl xl:p-6 flex justify-between absolute -bottom-6 -right-3 md:-bottom-6 md:right-7 lg:-bottom-3 lg:-right-6 xl:-bottom-14 xl:-right-9 drop-shadow-md">
+          <div className="bg-white h-auto w-auto p-3 md:p-5 md:h-[48%] md:w-[50%] lg:p-5 lg:h-[45%] lg:w-[70%] xl:h-[50%] xl:w-[65%] rounded-3xl xl:p-6 flex justify-between absolute -bottom-6 -right-3 md:-bottom-6 md:right-7 lg:-bottom-3 lg:-right-6 xl:-bottom-14 xl:-right-9 drop-shadow-md">
             <div className="space-y-2">
               <BsGrid1X2 className="bg-secondary size-9 p-2.5 rounded-lg" />
               <div className="flex items-center gap-x-1">

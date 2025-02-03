@@ -3,7 +3,7 @@ import GetStartedBtn from "./ui/get-started-btn";
 
 const Plans = () => {
   return (
-    <div className="space-y-6 px-6 lg:px-12 xl:px-16 2xl:px-20 pt-10 lg:pt-20 pb-10 2xl:pb-20 bg-[#0B0F12] ">
+    <div className="space-y-6 px-6 lg:px-12 xl:px-16 2xl:px-20 pt-10 lg:pt-20 pb-10 2xl:pb-20 bg-[#0B0F12]" id='plans'>
         <h1 className='text-3xl font-bold text-center text-white leading-12 md:text-4xl'>Tailored Plans for Your <br /> Manufacturing Scale</h1>
         <p className='text-xs text-center text-white opacity-90 tracking-wider'>Flexible pricing for any bussiness size</p>
         <div className="justify-self-center md:w-[90%] md:px-4 xl:px-24 2xl:px-32 py-8">

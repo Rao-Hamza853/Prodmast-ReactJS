@@ -11,7 +11,7 @@ const Navbar = () => {
   const [toggleMenu, setToggleMenu] = useState(false)
   useOnClickOutside(menuRef, () => setToggleMenu(false));
   return (
-    <nav className='flex items-center justify-between h-16 px-6 lg:px-12 xl:px-16 2xl:px-20  bg-[#F8FAFB]'>
+    <nav className='flex items-center justify-between h-16 px-6 lg:px-12 xl:px-16 2xl:px-20  bg-[#F8FAFB]' id='navbar'>
       <div className='flex items-center gap-2 lg:gap-4'>
         <Link to="/"><img src={logo} alt="logo" className="w-5 lg:w-9" /></Link>
         <p className='text-lg font-semibold opacity-80 lg:text-xl'>Prodmast</p>
@@ -23,13 +23,13 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a className="li-style" href="#about">
-              About
+            <a className="li-style" href="#services">
+            Services
             </a>
           </li>
           <li>
-            <a className="li-style" href="#services ">
-              Services
+            <a className="li-style" href="#plans ">
+              Plans
             </a>
           </li>
           <li>

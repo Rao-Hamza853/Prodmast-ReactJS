@@ -15,17 +15,17 @@ const Sidebar = () => {
         </div>
         </a>
 
-        <a href="#solutions">
+        <a href="#services">
         <div className="flex items-center gap-x-3 py-1.5 px-2">
-          <AiOutlineSolution />
-          <h2 className="text-sm font-medium text-[#020817]">About</h2>
+          <MdOutlineCleaningServices />
+          <h2 className="text-sm font-medium text-[#020817]">Services</h2>
         </div>
         </a>
 
-       <a href="#pricing">
+       <a href="#plans">
        <div className="flex items-center gap-x-3 py-1.5 px-2">
-          <MdOutlineCleaningServices />
-          <h2 className="text-sm font-medium text-[#020817]">Services</h2>
+          <AiOutlineSolution />
+          <h2 className="text-sm font-medium text-[#020817]">Plans</h2>
         </div>
        </a>
 
